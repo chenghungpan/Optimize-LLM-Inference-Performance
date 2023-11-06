@@ -1,5 +1,5 @@
 
-# How to Optimize LLM Inference Performance
+# Optimize Inference Performance of Large Languate Models 
 
 Optimizing the inference performance of a large language model (LLM) like GPT-4, when you are not constrained by training time, involves several strategies. Here’s how you can approach it:
 
