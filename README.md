@@ -5,7 +5,7 @@ Optimizing the inference performance of a large language model (LLM) like GPT-4,
 
 ## 1. Model Pruning
 
-<u>title</u>
+<i>title</i>
 
 Pruning Techniques: Reduce the size of the model by removing parameters that have little impact on performance.
 
