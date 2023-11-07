@@ -45,7 +45,7 @@ Optimized Libraries: Implement libraries that are optimized for specific operati
 
 <i><b>MKL-DNN/oneDNN</b></i>: Intel's Math Kernel Library for Deep Neural Networks.<br>
 <i><b>cuDNN</b></i>: NVIDIA's CUDA Deep Neural Network library.
-<br>Effect: These libraries offer optimized routines for deep learning workloads, enhancing performance.<br>
+<br><br>Effect: These libraries offer optimized routines for deep learning workloads, enhancing performance.<br>
 
 ## 7. Graph Optimization
 Computation Graphs: Optimize the computation graph of the model.<br>
@@ -64,7 +64,7 @@ Batch Processing: Process multiple inputs at once rather than one by one.<br>
 Result Caching: Cache the results of the model's predictions for common or repeated queries.<br>
 
 <i><b>Memoization</b></i>: Store the results of function calls and return the cached result when the same inputs occur again.<br>
-<i><b>Effec</b></i>t: Can significantly reduce the need for repeated inference, saving on computation time.<br>
+<br>Effect: Can significantly reduce the need for repeated inference, saving on computation time.<br>
 
 ## 10. Load Balancing and Model Serving
 Load Management: Use model serving solutions that manage the load and optimize the utilization of resources.<br>
