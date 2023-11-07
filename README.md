@@ -5,28 +5,28 @@ Optimizing the inference performance of a large language model (LLM) like GPT-4,
 
 ## 1. Model Pruning
 
-<i>Pruning Techniques</i>: Reduce the size of the model by removing parameters that have little impact on performance.
+Pruning Techniques: Reduce the size of the model by removing parameters that have little impact on performance.
 
-<i>Weight Pruning: Eliminate individual weights based on their magnitude.
-Unit Pruning: Remove entire neurons or layers that contribute less to the output.
-Effect: Reduces model size and can improve inference time with a potential trade-off in accuracy.
+<i>Weight Pruning</i>: Eliminate individual weights based on their magnitude.
+<i>Unit Pruning</i>: Remove entire neurons or layers that contribute less to the output.
+<i>Effect</i>: Reduces model size and can improve inference time with a potential trade-off in accuracy.
 
 ## 2. Quantization
 Quantization Methods: Reduce the precision of the model's weights.
 
-<i>Post-Training Quantization: Convert weights from floating-point to lower-precision integers after training.
-<i>Quantization-Aware Training: Train the model with quantization in mind to minimize the loss in performance.
-Effect: Significantly reduces the model size and speeds up computation, especially on hardware that supports low-precision arithmetic.
+<i>Post-Training Quantization</i>: Convert weights from floating-point to lower-precision integers after training.
+<i>Quantization-Aware Training</i>: Train the model with quantization in mind to minimize the loss in performance.
+<i>Effect</i>: Significantly reduces the model size and speeds up computation, especially on hardware that supports low-precision arithmetic.
 
 ## 3. Model Distillation
 Knowledge Distillation: Train a smaller model (student) to replicate the behavior of a larger model (teacher).
 
 <i>Soft Targets</i>: Use the output probabilities of the teacher model as targets for training the student model.
 <i>Intermediate Representations</i>: Also match intermediate layers' representations between teacher and student models.
-Effect</i>: Produces a smaller, faster model that retains much of the performance of the original large model.
+<i>Effect</i>: Produces a smaller, faster model that retains much of the performance of the original large model.
 
 ## 4. Efficient Model Architectures
-Architecture Optimization</i>: Use more efficient model architectures designed for faster inference.
+Architecture Optimization: Use more efficient model architectures designed for faster inference.
 
 <i>Transformer Variants</i>: Explore models like MobileBERT, TinyBERT, or DistilBERT that are designed for efficiency.
 <i>Layer Sharing</i>: Implement layers that share parameters or weights to reduce the overall model size.
